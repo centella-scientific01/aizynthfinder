@@ -58,7 +58,7 @@ mypy = "^0.991"
 pylint = "^2.7.0"
 
 [tool.poetry.extras]
-all = ["grpcio", "tensorflow-serving-api", "pymongo", "route-distances", "scipy", "matplotlib", "timeout-decorator"]
+all = ["grpcio", "pymongo", "scipy", "matplotlib", "timeout-decorator"]
 
 [tool.poetry.scripts]
 aizynthapp = "aizynthfinder.interfaces.aizynthapp:main"
